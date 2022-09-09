@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset = "UTF-8">
+            <link rel="stylesheet" href="css/style.css">
+            <title>お問い合わせ</title>
+        </head>
+        <body>
+            <div id="container">
+                <h1>Keep in touch</h1>
+                <form id = "contact_form">
+                    <div class="name">
+                        <label for = "name"></label>
+                        <input type ="text" placeholder = "My name is" name="name" id = "name_input" reqired>
+                    </div>
+                    <div class= "email">
+                        <label for = "email"></label>
+                        <input type = "email" placeholder = "My e-mail is" name = "email" id = "email_input" required>
+                    </div>
+                    <div class="TEL">
+                        <label for = "tel"></label>
+                        <input type = "tel" placeholder = "000-0000-0000" name = "tel" id = "tel_input" required>
+                    </div>
+                    <div class = "message">
+                        <label for = "message"></label>
+                        <textarea name = "message" placeholder="Questions" id = "message_input" cols = "30" rows = "5" required>        
+                        </textarea>
+                    </div>
+                    <div class = "submit">
+                        <input type = "submit" value = "Send Message" id = "form_button">
+                    </div>
+                </form>
+            </div>
+        </body>
+    </html>
