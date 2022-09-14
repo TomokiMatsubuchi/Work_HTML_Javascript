@@ -76,14 +76,17 @@ input[type = "text"], [type = "email"], [type = "tel"], textarea{
 .email{
   float: right;
   width: 45%;
+  display: none;
 }
 
 .TEL{
   width: 100%;
+  display: none;
 }
 
 .message{
   float: none;
+  display: none;
 }
 
 #form_button {
@@ -103,6 +106,7 @@ input[type = "text"], [type = "email"], [type = "tel"], textarea{
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  display: none;
 }
 
 
